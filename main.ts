@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
 import { join } from "node:path";
 
-const note = "My door alarm logged you staring at the yogurt for nine minutes, then choosing the three-day-old rice you swore you'd never touch again, chef.";
+const note = "My door sensor logged nine minutes of staring at the yogurt, so I relabeled tonight's spinach 'urgent' and your three-day-old rice 'fieldwork.'";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
